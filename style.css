@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif; /*change font Arial Sans-serif*/
+  margin: 0; /*Remove default margin*/
+  padding: 0; /*Remove default padding*/
+  background-color: #f4f4f4; /*Set backgound color for body to #f4f4f4*/
+}
+header {
+  background-color: #333; /*Set background color for the header to #333*/
+  color: white; /*Set the text to color white for readability*/
+  text-align: center; /**/
+  padding: 20px;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px; /*Display in 10px spacing*/
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none; /*Remove underlines*/
+  font-weight: bold;
+}
+
+section {
+  margin: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+}
+
+h2 {
+  color: #333;
+}
+table {
+  width: 100%;
+
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid #333;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
